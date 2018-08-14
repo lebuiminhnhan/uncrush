@@ -5,7 +5,7 @@ function countdown(element, minutes, seconds) {
         var el = document.getElementById(element);
         // if the time is 0 then end the counter
         if (time <= 0) {
-            var text = "<p id='demo1' class='time'></p>";
+            var text = "<a href='game.html' class='current'>Play Game</a>";
             el.innerHTML = text;
 
             setTimeout(function () {
