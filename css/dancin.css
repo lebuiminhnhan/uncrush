@@ -44,4 +44,7 @@ img{
         position: absolute;
         top: -3em
     }
+    .slide{
+        width: 300px;
+    }
 }
