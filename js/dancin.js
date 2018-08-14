@@ -5,12 +5,12 @@ function countdown(element, minutes, seconds) {
         var el = document.getElementById(element);
         // if the time is 0 then end the counter
         if (time <= 0) {
-            var text = "<a href='index.html'>Replay</a>";
+            var text = "<p id="demo1" class="time"></p>";
             el.innerHTML = text;
 
             setTimeout(function () {
                 countdown('demo1', 0, 0);
-            }, 2000);
+            }, 3000);
             clearInterval(interval);
             return;
         }
