@@ -10,7 +10,7 @@ function countdown(element, minutes, seconds) {
 
             setTimeout(function () {
                 countdown('demo1', 0, 0);
-            }, 3000);
+            }, 1000);
             clearInterval(interval);
             return;
         }
