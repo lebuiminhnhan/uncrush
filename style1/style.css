@@ -130,10 +130,10 @@ button:focus {
 }
 #startBtn {
 	position:absolute;
-	left:35%;
-	top:25%;
-	height:35%;
-	width:50%;
+	left:28%;
+	top:30%;
+	height:55%;
+	width:45%;
 	z-index:99999999;
 	cursor:pointer;
 }
