@@ -14,6 +14,9 @@ img{
     opacity: 1;
     filter: alpha(opacity=50);
 }
+.slide {
+    color: white;
+}
 .mySlides
 {
     height: 300px;
@@ -47,4 +50,35 @@ img{
     .slide{
         width: 300px;
     }
+}
+blockquote:before 
+{
+    content: '\201C';
+    font-size: 180px;
+    line-height: 0;
+    font-family: 'Montserrat', sans-serif, Arial;
+    vertical-align: -65px;
+    color: #0697ae;
+    text-align: center;
+    display: block;
+}
+blockquote
+{
+    margin-top: 110px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 22px;
+    line-height: 35px;
+    color: #b0c2c2;
+}
+blockquote.inline-blockquote
+{
+    width: 395px;
+    float: left;
+    margin-left: -170px;
+    margin-right: 70px;
+}
+.wrap-blockquote
+{
+    display: inline;
 }
